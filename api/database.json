@@ -1,0 +1,706 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Seth",
+      "password": 12345
+    }
+  ],
+  "counties": [
+    {
+      "id": 1,
+      "countyName": "Barbour"
+    },
+    {
+      "id": 2,
+      "countyName": "Berkeley"
+    },
+    {
+      "id": 3,
+      "countyName": "Boone"
+    },
+    {
+      "id": 4,
+      "countyName": "Braxton"
+    },
+    {
+      "id": 5,
+      "countyName": "Brooke"
+    },
+    {
+      "id": 6,
+      "countyName": "Cabell"
+    },
+    {
+      "id": 7,
+      "countyName": "Calhoun"
+    },
+    {
+      "id": 8,
+      "countyName": "Clay"
+    },
+    {
+      "id": 9,
+      "countyName": "Doddridge"
+    },
+    {
+      "id": 10,
+      "countyName": "Fayette"
+    },
+    {
+      "id": 11,
+      "countyName": "Gilmer"
+    },
+    {
+      "id": 12,
+      "countyName": "Grant"
+    },
+    {
+      "id": 13,
+      "countyName": "Greenbrier"
+    },
+    {
+      "id": 14,
+      "countyName": "Hampshire"
+    },
+    {
+      "id": 15,
+      "countyName": "Hancock"
+    },
+    {
+      "id": 16,
+      "countyName": "Hardy"
+    },
+    {
+      "id": 17,
+      "countyName": "Harrison"
+    },
+    {
+      "id": 18,
+      "countyName": "Jackson"
+    },
+    {
+      "id": 19,
+      "countyName": "Jefferson"
+    },
+    {
+      "id": 20,
+      "countyName": "Kanawha"
+    },
+    {
+      "id": 21,
+      "countyName": "Lewis"
+    },
+    {
+      "id": 22,
+      "countyName": "Lincoln"
+    },
+    {
+      "id": 23,
+      "countyName": "Logan"
+    },
+    {
+      "id": 24,
+      "countyName": "Marion"
+    },
+    {
+      "id": 25,
+      "countyName": "Marshall"
+    },
+    {
+      "id": 26,
+      "countyName": "Mason"
+    },
+    {
+      "id": 27,
+      "countyName": "McDowell"
+    },
+    {
+      "id": 28,
+      "countyName": "Mercer"
+    },
+    {
+      "id": 29,
+      "countyName": "Mineral"
+    },
+    {
+      "id": 30,
+      "countyName": "Mingo"
+    },
+    {
+      "id": 31,
+      "countyName": "Monongalia"
+    },
+    {
+      "id": 32,
+      "countyName": "Monroe"
+    },
+    {
+      "id": 33,
+      "countyName": "Morgan"
+    },
+    {
+      "id": 34,
+      "countyName": "Nicholas"
+    },
+    {
+      "id": 35,
+      "countyName": "Ohio"
+    },
+    {
+      "id": 36,
+      "countyName": "Pendleton"
+    },
+    {
+      "id": 37,
+      "countyName": "Pleasants"
+    },
+    {
+      "id": 38,
+      "countyName": "Pocahontas"
+    },
+    {
+      "id": 39,
+      "countyName": "Preston"
+    },
+    {
+      "id": 40,
+      "countyName": "Putnam"
+    },
+    {
+      "id": 41,
+      "countyName": "Raleigh"
+    },
+    {
+      "id": 42,
+      "countyName": "Randolph"
+    },
+    {
+      "id": 43,
+      "countyName": "Ritchie"
+    },
+    {
+      "id": 44,
+      "countyName": "Roane"
+    },
+    {
+      "id": 45,
+      "countyName": "Summers"
+    },
+    {
+      "id": 46,
+      "countyName": "Taylor"
+    },
+    {
+      "id": 47,
+      "countyName": "Tucker"
+    },
+    {
+      "id": 48,
+      "countyName": "Tyler"
+    },
+    {
+      "id": 49,
+      "countyName": "Upshur"
+    },
+    {
+      "id": 50,
+      "countyName": "Wayne"
+    },
+    {
+      "id": 51,
+      "countyName": "Webster"
+    },
+    {
+      "id": 52,
+      "countyName": "Wetzel"
+    },
+    {
+      "id": 53,
+      "countyName": "Wirt"
+    },
+    {
+      "id": 54,
+      "countyName": "Wood"
+    },
+    {
+      "id": 55,
+      "countyName": "Wyoming"
+    }
+  ],
+  "soilTextureCodes": [
+    {
+      "id": 1,
+      "name": "Clay"
+    },
+    {
+      "id": 2,
+      "name": "Sandy Clay"
+    },
+    {
+      "id": 3,
+      "name": "Silty Clay"
+    },
+    {
+      "id": 4,
+      "name": " Sandy Clay Loam"
+    },
+    {
+      "id": 5,
+      "name": "Clay Loam"
+    },
+    {
+      "id": 6,
+      "name": "Silty Clay Loam"
+    },
+    {
+      "id": 7,
+      "name": "Sandy Loam"
+    },
+    {
+      "id": 8,
+      "name": "Loam"
+    },
+    {
+      "id": 9,
+      "name": "Silt Loam"
+    },
+    {
+      "id": 10,
+      "name": "Loam Sand"
+    },
+    {
+      "id": 11,
+      "name": "Sand"
+    },
+    {
+      "id": 12,
+      "name": "Silt"
+    },
+    {
+      "id": 13,
+      "name": "Other"
+    }
+  ],
+  "tillageCodes": [
+    {
+      "id": 1,
+      "name": "No-Till"
+    },
+    {
+      "id": 2,
+      "name": "Conventional"
+    },
+    {
+      "id": 3,
+      "name": "Other"
+    }
+  ],
+  "cropCodes": [
+    {
+      "id": 1,
+      "code": "C01",
+      "name": "Grass-Legume Hay"
+    },
+    {
+      "id": 2,
+      "code": "C02",
+      "name": "Grass Hay N-Fertilized"
+    },
+    {
+      "id": 3,
+      "code": "C03",
+      "name": "Alfalfa and Alfalfa Grass Hay"
+    },
+    {
+      "id": 4,
+      "code": "C04",
+      "name": "Bermuda Grass"
+    },
+    {
+      "id": 5,
+      "code": "C05",
+      "name": "Grass-Legume Pasture"
+    },
+    {
+      "id": 6,
+      "code": "C06",
+      "name": "Grass Pasture N-Fertilized"
+    },
+    {
+      "id": 7,
+      "code": "C07",
+      "name": "Grass-Legume Seeding"
+    },
+    {
+      "id": 8,
+      "code": "C08",
+      "name": "Grass Seeding"
+    },
+    {
+      "id": 9,
+      "code": "C09",
+      "name": "Alfalfa Seeding"
+    },
+    {
+      "id": 10,
+      "code": "C10",
+      "name": "Corn, Grain"
+    },
+    {
+      "id": 11,
+      "code": "C11",
+      "name": "Corn, Silage"
+    },
+    {
+      "id": 12,
+      "code": "C12",
+      "name": "Barley, Standard Mgmt."
+    },
+    {
+      "id": 13,
+      "code": "C13",
+      "name": "Barley, Intensive Mgmt."
+    },
+    {
+      "id": 14,
+      "code": "C14",
+      "name": "Wheat, Standard Mgmt."
+    },
+    {
+      "id": 15,
+      "code": "C15",
+      "name": "Wheat, Intensive Mgmt."
+    },
+    {
+      "id": 16,
+      "code": "C16",
+      "name": "Soybeans, Early Season"
+    },
+    {
+      "id": 17,
+      "code": "C17",
+      "name": "Soybeans, Late Season"
+    },
+    {
+      "id": 18,
+      "code": "C18",
+      "name": "Oats"
+    },
+    {
+      "id": 19,
+      "code": "C19",
+      "name": "Silage, Barley/Oats/Rye"
+    },
+    {
+      "id": 20,
+      "code": "C20",
+      "name": "Silage, Wheat/Triticale"
+    },
+    {
+      "id": 21,
+      "code": "C21",
+      "name": "SOrghum, Grain"
+    },
+    {
+      "id": 22,
+      "code": "H01",
+      "name": "Home Vegetable Garden"
+    },
+    {
+      "id": 23,
+      "code": "H02",
+      "name": "New Lawn Seeding"
+    },
+    {
+      "id": 24,
+      "code": "H03",
+      "name": "Established Lawns and Turf"
+    },
+    {
+      "id": 25,
+      "code": "H04",
+      "name": "Orchards and Vineyards"
+    },
+    {
+      "id": 26,
+      "code": "H05",
+      "name": "Blueberries"
+    },
+    {
+      "id": 27,
+      "code": "H06",
+      "name": "Brambles"
+    },
+    {
+      "id": 28,
+      "code": "H07",
+      "name": "Azaleas and Rhododendrons"
+    },
+    {
+      "id": 29,
+      "code": "H10",
+      "name": "Hemp Cannabinoids"
+    },
+    {
+      "id": 30,
+      "code": "H11",
+      "name": "Hemp Fiber"
+    },
+    {
+      "id": 31,
+      "code": "H12",
+      "name": "Hemp Grain and Fiber"
+    },
+    {
+      "id": 32,
+      "code": "H99",
+      "name": "Other- Soil Analysis Without Recommendations"
+    },
+    {
+      "id": 33,
+      "code": "W01",
+      "name": "Wildlife Food Plots Based on Grains"
+    },
+    {
+      "id": 34,
+      "code": "W02",
+      "name": "Wildlife Food Plots Based on Forage Legumes and Brassicas"
+    },
+    {
+      "id": 35,
+      "code": "W03",
+      "name": "Wildlife Food Plots Based on Woody Browse"
+    },
+    {
+      "id": 36,
+      "code": "V01",
+      "name": "Asparagus, New Planting"
+    },
+    {
+      "id": 37,
+      "code": "V02",
+      "name": "Asparagus, Cutting Bed Maintenance"
+    },
+    {
+      "id": 38,
+      "code": "V03",
+      "name": "Asparagus, Growing Crowns"
+    },
+    {
+      "id": 39,
+      "code": "V04",
+      "name": "Beans, Lima"
+    },
+    {
+      "id": 40,
+      "code": "V05",
+      "name": "Beans, Snap"
+    },
+    {
+      "id": 41,
+      "code": "V06",
+      "name": "Beets, Garden"
+    },
+    {
+      "id": 42,
+      "code": "V07",
+      "name": "Broccoli"
+    },
+    {
+      "id": 43,
+      "code": "V08",
+      "name": "Brussels Sprouts, Cabbage, Cauliflower"
+    },
+    {
+      "id": 44,
+      "code": "V09",
+      "name": "Carrots"
+    },
+    {
+      "id": 45,
+      "code": "V10",
+      "name": "Celery"
+    },
+    {
+      "id": 46,
+      "code": "V11",
+      "name": "Collards, Kale, Mustard"
+    },
+    {
+      "id": 47,
+      "code": "V12",
+      "name": "Cucumbers"
+    },
+    {
+      "id": 48,
+      "code": "V13",
+      "name": "Eggplant"
+    },
+    {
+      "id": 49,
+      "code": "V14",
+      "name": "Garlic"
+    },
+    {
+      "id": 50,
+      "code": "V15",
+      "name": "Greens, Mustard, Turnips"
+    },
+    {
+      "id": 51,
+      "code": "V16",
+      "name": "Horseradish"
+    },
+    {
+      "id": 52,
+      "code": "V17",
+      "name": "Kohlrabi"
+    },
+    {
+      "id": 53,
+      "code": "V18",
+      "name": "Leeks"
+    },
+    {
+      "id": 54,
+      "code": "V19",
+      "name": "Lettuce, Head"
+    },
+    {
+      "id": 55,
+      "code": "V20",
+      "name": "Lettuce, Leaf, Endive, Escarole"
+    },
+    {
+      "id": 56,
+      "code": "V21",
+      "name": "Muskmelons, Cantaloupes, Mixed Melons"
+    },
+    {
+      "id": 57,
+      "code": "V22",
+      "name": "Okra"
+    },
+    {
+      "id": 58,
+      "code": "V23",
+      "name": "Onions, Bulb"
+    },
+    {
+      "id": 59,
+      "code": "V24",
+      "name": "Onions, Green Bunching"
+    },
+    {
+      "id": 60,
+      "code": "V25",
+      "name": "Parsley"
+    },
+    {
+      "id": 61,
+      "code": "V26",
+      "name": "Parsnips"
+    },
+    {
+      "id": 62,
+      "code": "V27",
+      "name": "Peas: Shell, Sugar, Snap, Snow"
+    },
+    {
+      "id": 63,
+      "code": "V28",
+      "name": "Peppers"
+    },
+    {
+      "id": 64,
+      "code": "V29",
+      "name": "Potatoes, Sweet"
+    },
+    {
+      "id": 65,
+      "code": "V30",
+      "name": "Potatoes, White"
+    },
+    {
+      "id": 66,
+      "code": "V31",
+      "name": "Pumpkins and Winter Squash"
+    },
+    {
+      "id": 67,
+      "code": "V32",
+      "name": "Radish, Rutabagas, Turnips"
+    },
+    {
+      "id": 68,
+      "code": "V33",
+      "name": "Spinach, Overwinter Field Production"
+    },
+    {
+      "id": 69,
+      "code": "V34",
+      "name": "Spinach, Spring or Fall"
+    },
+    {
+      "id": 70,
+      "code": "V35",
+      "name": "Strawberries, Annual Plasticulture System"
+    },
+    {
+      "id": 71,
+      "code": "V36",
+      "name": "Strawberries, Matted Row Establishment"
+    },
+    {
+      "id": 72,
+      "code": "V37",
+      "name": "Strawberries, Matted Row Maintenance"
+    },
+    {
+      "id": 73,
+      "code": "V38",
+      "name": "Summer Squash"
+    },
+    {
+      "id": 74,
+      "code": "V39",
+      "name": "Sweet Corn, Fresh Market"
+    },
+    {
+      "id": 75,
+      "code": "V40",
+      "name": "Sweet Corn, Processing"
+    },
+    {
+      "id": 76,
+      "code": "V41",
+      "name": "Tomatoes, Bare-Ground Fresh Market"
+    },
+    {
+      "id": 77,
+      "code": "V42",
+      "name": "Tomatoes, Polyethylene Mulched Fresh Market"
+    },
+    {
+      "id": 78,
+      "code": "V43",
+      "name": "Tomatoes, Processing Machine Harvest"
+    },
+    {
+      "id": 79,
+      "code": "V44",
+      "name": "Watermelon, Non-irrigated"
+    },
+    {
+      "id": 80,
+      "code": "V45",
+      "name": "Watermelon, Irrigated"
+    },
+    {
+      "id": 81,
+      "code": "V46",
+      "name": "Winter Leafy Greens, Low and High Tunnel Production"
+    }
+  ]
+}
