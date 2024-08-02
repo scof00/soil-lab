@@ -1,12 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
-import "./navbar.css"
+import "./navbar.css";
 
 export const Navbar = () => {
   //Navbar component that appears on every page.
   const navigate = useNavigate();
   return (
-    <header>
-        <h1>WVU Soil Testing Lab</h1>
+    <header className="navbar-background">
+      <h1 className="navbar-title">WVU Soil Testing Lab</h1>
       <ul className="navbar">
         <li className="navbar-item">
           <Link to="/" className="navbar-item">

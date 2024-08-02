@@ -36,8 +36,9 @@ export const NewSubmission = () => {
       <form>
         <fieldset>
           <div className="customer-info">
-            <div id="row1">
+            <div className="row1">
               <label>WV Resident? </label>
+              <br></br>
               <input
                 type="checkbox"
                 required
@@ -51,7 +52,7 @@ export const NewSubmission = () => {
               ></input>
               <label>No</label>
             </div>
-            <div id="row1">
+            <div className="row1">
               <label>First Name: </label>
               <input
                 type="text"
@@ -60,7 +61,7 @@ export const NewSubmission = () => {
                 className="customer-info-input"
               ></input>
             </div>
-            <div id="row1">
+            <div className="row1">
               <label>Last Name: </label>
               <input
                 type="text"
@@ -69,17 +70,17 @@ export const NewSubmission = () => {
                 className="customer-info-input"
               ></input>
             </div>
-            <div id="row2">
-              <label>Home Address: </label>
-              <br></br>
+            <div className="row2" id="home-address">
+              <label>Home Address: </label>{" "}
               <input
                 type="text"
                 required
                 placeholder="Street/PO Box"
-                className="customer-info-input"
+                id="home-input"
               ></input>
             </div>
-            <div id="row2">
+            <div className="row2" id="city">
+              <label>City: </label>
               <input
                 type="text"
                 required
@@ -87,7 +88,8 @@ export const NewSubmission = () => {
                 className="customer-info-input"
               ></input>
             </div>
-            <div id="row2">
+            <div className="row3">
+              <label>State: </label>
               <input
                 type="text"
                 required
@@ -95,7 +97,8 @@ export const NewSubmission = () => {
                 className="customer-info-input"
               ></input>
             </div>
-            <div id="row2">
+            <div className="row3">
+              <label>Zip Code:</label>
               <input
                 type="number"
                 required
@@ -103,7 +106,7 @@ export const NewSubmission = () => {
                 className="customer-info-input"
               ></input>
             </div>
-            <div>
+            <div className="row3">
               <label>Phone: </label>
               <input
                 type="tel"
@@ -112,25 +115,34 @@ export const NewSubmission = () => {
                 className="customer-info-input"
               ></input>
             </div>
-            <div>
-              <label>Primary Email: </label>
+            <div className="row4" id="email">
+              <label>Primary Email: </label>{" "}
               <input
                 type="email"
                 required
                 placeholder="Email"
-                className="customer-info-input"
+                id="email-input"
+              ></input>
+            </div>
+            <div className="row5" id="email">
+              <label>Secondary Email: </label>{" "}
+              <input
+                type="email"
+                required
+                placeholder="Email"
+                id="email-input"
               ></input>
             </div>
           </div>
           <hr></hr>
           <h2>Sample Data</h2>
           <div className="sample-data">
-            <div id="row1">
-              <label>Your Sample ID: </label>
+            <div className="row1">
+              <label>Your Sample ID: </label> {" "}
               <input type="text" required placeholder="Your Sample ID"></input>
             </div>
-            <div id="row1">
-              <label>County Where Taken: </label>
+            <div className="row1">
+              <label>County Where Taken: </label>{" "}
               <select>
                 <option value="0">Select County</option>
                 {counties.map((county) => {
@@ -142,33 +154,32 @@ export const NewSubmission = () => {
                 })}
               </select>
             </div>
-            <div id="row2">
+            <div className="row2" id="previous-management">
               <label>Previous Management (crop, cover): </label>
               <br></br>
-              <input type="text" required placeholder="Street/PO Box"></input>
+              <input type="text" required placeholder="Previous Management" id="previous-management-input"></input>
             </div>
-            <div id="row2">
-              <label>High Tunnel Sample? </label>
+            <div className="row2">
+              <label>High Tunnel Sample? </label>{" "}
               <input type="checkbox" required></input>
               <label>Yes</label>
             </div>
-            <div id="row3">
-              <label>Size of Sample Area: </label>
-              <br></br>
-              <input type="number" required placeholder="Size"></input>
-              <label>Acre</label>
+            <div className="row3" id="sample-size">
+              <label>Size of Sample Area: </label> {" "}
+              <input type="number" required placeholder="Size" id="sample-size-input"></input>{" "}
+              <label>Acre(s)</label>
               <p>or</p>
-              <input type="number" required placeholder="Size"></input>
+              <input type="number" required placeholder="Size"  id="sample-size-input"></input>
               <label>Sq. Ft</label>
             </div>
-            <div id="row3">
-              <label>Predominant Soil Series: </label>
+            <div className="row3">
+              <label>Predominant Soil Series: </label>{" "}
               <select>
                 <option value="0">Choose Soil Series</option>
               </select>
             </div>
-            <div id="row4">
-              <label>Crop Code: </label>
+            <div className="row4">
+              <label>Crop Code: </label>{" "}
               <select>
                 <option value="0">Choose Crop Code</option>
                 {cropCodes.map((crop) => {
@@ -180,12 +191,12 @@ export const NewSubmission = () => {
                 })}
               </select>
             </div>
-            <div id="row4">
-              <label>Date Sampled: </label>
+            <div className="row4">
+              <label>Date Sampled: </label>{" "}
               <input type="date"></input>
             </div>
-            <div id="row5">
-              <label>Soil Texture Code: </label>
+            <div className="row5">
+              <label>Soil Texture Code: </label>{" "}
               <select>
                 <option value="0">Choose Soil Texture</option>
                 {soilCodes.map((soil) => {
@@ -197,8 +208,8 @@ export const NewSubmission = () => {
                 })}
               </select>
             </div>
-            <div id="row5">
-              <label>Tillage Code: </label>
+            <div className="row5">
+              <label>Tillage Code: </label>{" "}
               <select>
                 <option value="0">Choose Tillage Code</option>
                 {tillageCodes.map((tillage) => {
@@ -210,111 +221,120 @@ export const NewSubmission = () => {
                 })}
               </select>
             </div>
-            <div id="row6">
-              <label>Sample area limed within the last 12 months: </label>
-              <input type="checkbox" required></input>
-              <label>Yes</label>
+            <div className="row6" id="add-ons">
+              <div className="row1">
+                <label>Sample area limed within the last 12 months: </label>{" "}
+                <input type="checkbox" required></input>
+                <label>Yes</label>
+              </div>
+              <div className="row2">
+                <label>Cost Share Program Participant: </label>{" "}
+                <input type="checkbox" required></input>
+                <label>Yes</label>
+              </div>
+              <div className="row3">
+                <label>Organic Matter- OM: </label>{" "}
+                <input type="checkbox" required></input>
+                <label>Yes</label>
+              </div>
+              <div className="row1">
+                <label>Electrical Conductivity - EC: </label>{" "}
+                <input type="checkbox" required></input>
+                <label>Yes</label>
+              </div>
+              <div className="row2">
+                <label>Micro Nutrient Package- MN: </label>{" "}
+                <input type="checkbox" required></input>
+                <label>Yes</label>
+              </div>
             </div>
-            <div id="row7">
-              <label>Cost Share Program Participant: </label>
-              <input type="checkbox" required></input>
-              <label>Yes</label>
-            </div>
-            <div id="row8">
-              <label>Organic MAtter- OM: </label>
-              <input type="checkbox" required></input>
-              <label>Yes</label>
-            </div>
-            <div id="row6">
-              <label>Electrical Conductivity - EC: </label>
-              <input type="checkbox" required></input>
-              <label>Yes</label>
-            </div>
-            <div id="row7">
-              <label>Micro Nutrient Package- MN: </label>
-              <input type="checkbox" required></input>
-              <label>Yes</label>
-            </div>
-            <div id="row9">
+            <div className="row9" id="comments">
               <label>Comments: </label>
-              <input type="text" required placeholder="Comments"></input>
+              <br></br>
+              <input
+                type="text"
+                required
+                placeholder="Comments"
+                id="comment-input"
+              ></input>
             </div>
           </div>
+          <br></br>
           <hr></hr>
           <div className="lab-input">
-            <div id="row1">
+            <div className="row1">
               <label>WVU Lab ID: </label>{" "}
               <input type="number" required placeholder="Lab ID"></input>
             </div>
-            <div id="row1">
+            <div className="row1">
               <label>Date Received: </label>{" "}
-              <input type="date" required id="test-data"></input>
+              <input type="date" required></input>
             </div>
-            <div id="row1">
+            <div className="row1">
               <label>Sample Quality: </label>{" "}
               <input type="text" id="test-data"></input>
             </div>
-            <div id="row2">
+            <div className="row2">
               <label>pH: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row2">
+            <div className="row2">
               <label>Buffer pH: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row2">
+            <div className="row2">
               <label>Mg: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row2">
+            <div className="row2">
               <label>Mn: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row3">
+            <div className="row3">
               <label>Ca: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row3">
+            <div className="row3">
               <label>K: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row3">
+            <div className="row3">
               <label>Na: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row3">
+            <div className="row3">
               <label>Ni: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row4">
+            <div className="row4">
               <label>P: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row4">
+            <div className="row4">
               <label>B: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row4">
+            <div className="row4">
               <label>Zn: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row4">
+            <div className="row4">
               <label>Cu: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row5">
+            <div className="row5">
               <label>Fe: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row5">
+            <div className="row5">
               <label>Al: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row5">
+            <div className="row5">
               <label>Organic: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>
-            <div id="row5">
+            <div className="row5">
               <label>EC: </label>{" "}
               <input type="number" required id="test-data"></input>
             </div>

@@ -1,0 +1,19 @@
+.navbar-background{
+    background-color: #002855;
+}
+.navbar-title{
+    color: white;
+    background-color: #002855;
+}
+
+.navbar-item{
+    color: white;
+    background-color: #002855;
+}
+
+.navbar{
+    background-color: #002855;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
